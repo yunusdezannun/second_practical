@@ -1,0 +1,19 @@
+*{
+    margin: auto;
+    padding: 0;
+ 
+}
+
+#friend {
+    float: right;
+    height: auto;
+    width: 800px;
+
+}
+
+#potfolio{
+    float: right;
+    height: auto ;
+    width: 595px;
+    
+}

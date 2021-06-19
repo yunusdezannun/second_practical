@@ -1,0 +1,287 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;  
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* my code */    
+html {
+  overflow-x: hidden;
+}
+.navbar{
+
+	background: black !important;
+	position: absolute;
+	top: 5px;
+	left: 0;
+	right: 0;
+	z-index:3;
+	padding: 0;
+}
+
+.navbar .navbar-brand{
+	color: white;
+	font-weight: 900;
+	font-size: 20px;
+}
+
+.navbar .nav > .item > .nav-link {
+	font-size: 15px;
+	padding-top: 0.01rem;
+	padding-bottom: 0.01rem;
+	padding-left:  20px;
+	padding-right: 20px;
+	font-weight: 600;
+	color: #ffffff;
+	opacity: 1 !important;
+}
+
+.navbar .nav > .item > .nav-link:hover {
+	color: #c8a97e;
+}
+
+.navbar .nav > .item.reg > a {
+	background: red;
+	color: white;
+	border-radius: 5px;
+
+}
+
+.ftco-wrap-about {
+	background-position: bottom center !important;
+	background-color:grey;
+}
+
+.ftco-wrap-about .heading-section h2 {
+	font-weight: 600 !important;
+
+}
+
+.ftco-wrap-about .img {
+	width: 100; 
+}
+
+.intro {
+	width: 100;
+	background: white;
+	padding-top: 102px;
+	padding-bottom: 0px;
+}
+
+.intro_image {
+	width: 100%;
+}
+
+.intro_image img {
+	max-width: 100%;
+}
+
+.ftco-wrap-about {
+	background-position: bottom center !important;
+}
+
+.ftco-wrap-about .heading-section h2 {
+	font-weight: 600 !important;
+}
+
+
+
+/* the intro box*/
+.intro{
+	width: 100%;
+	background: white;
+	padding-top: 70px;
+	padding-bottom: 0px;
+}
+
+.intro_image{
+	width: 50%;
+	display: flex;
+	justify-content: center;
+	border-radius: 50%;
+}
+
+.intro_image img {
+	max-width: 60%;
+	height: 200px;
+	border: solid 2px #b49388;
+	border-radius: 50%;
+}
+
+.intro_content{
+	position: absolute;
+	align-content: center;
+	right: 300px;
+	width: 679px;
+	top: 200px;
+	background:white;
+	border: solid 2px #b49388;
+	box-shadow:0px 45px 70px rgba(0, 0, 0, 0.24);
+	z-index: 1;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 100px;
+	padding-right: 60px;
+	border-bottom-right-radius: 60px;
+	border-top-left-radius: 60px;
+}
+
+.intro_title {
+	margin-top: 1px;
+	margin-bottom: 1px;
+	font-family: "times new roman", cursive;
+	color: #9b4b15;
+	font-weight: 700;
+	font-size: 60px;
+
+}
+
+.into_title h2 {
+	font-size: 100px;
+}
+
+.intro_text{
+	margin-top: 10px;
+	line-height: 1.5;
+	font-size: 16px;
+	font-weight: 80px; 
+}
+
+.intro_text p {
+	font-weight: 40px;
+	text-align: justify;
+}
+
+/*HTML5*/
+
+.ftco-footer .ftco-footer-widget h2{
+	font-weight: normal;
+	color:white;
+	margin-bottom: 40px;
+	font-size: 18px;
+	font-weight: 700;
+}
+
+.ftco-footer .ftco-footer-widget ul li  a img {
+	background-color: #111;
+	width: 15%;
+	margin-bottom: 2px;
+	margin-top: 2px;
+	padding:2px;
+	line-height: 2px;
+
+}
+
+.ftco-footer .ftco-footer-widget .house-type li span {
+	width:100%;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
